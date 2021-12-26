@@ -15,4 +15,4 @@ An userscript that adds some functionality to backpack.tf to aid navigation when
 
 ![Weapon stats page](https://i.imgur.com/0o9CnNt.png)
 ![Kit stats page](https://i.imgur.com/Mx4isU7.png)
-![Fabricator stats page]()
+![Fabricator stats page](https://i.imgur.com/XRGdDLU.png)
