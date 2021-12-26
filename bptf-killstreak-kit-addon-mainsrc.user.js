@@ -8,7 +8,7 @@
 // @iconURL      https://backpack.tf/images/440/Killstreak_Icon_Professional.png
 // @homepageURL  https://github.com/HairGMan/bptf-killstreak-kit-additions
 // @supportURL   https://github.com/HairGMan/bptf-killstreak-kit-additions/issues
-// @downloadURL  https://github.com/HairGMan/bptf-killstreak-kit-additions/raw/master/bptf-killstreak-kit-addon-mainsrc.js
+// @downloadURL  https://github.com/HairGMan/bptf-killstreak-kit-additions/raw/master/bptf-killstreak-kit-addon-mainsrc.user.js
 // @grant        none
 // ==/UserScript==
 
