@@ -10,3 +10,9 @@ An userscript that adds some functionality to backpack.tf to aid navigation when
 1. Install [Tampermonkey](https://www.tampermonkey.net/).
 2. Open the [script in raw view](https://github.com/HairGMan/bptf-killstreak-kit-additions/raw/master/bptf-killstreak-kit-addon-mainsrc.user.js).
 3. Install.
+
+## Images
+
+![Weapon stats page](https://imgur.com/0o9CnNt)
+![Kit stats page](https://imgur.com/Mx4isU7)
+![Fabricator stats page](https://imgur.com/0o9CnNt)
