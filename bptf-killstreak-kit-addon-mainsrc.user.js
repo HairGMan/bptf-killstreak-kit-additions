@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Backpack.tf Killstreak Kit Additions
 // @namespace    https://github.com/HairGMan
-// @version      0.1
+// @version      0.1.0
 // @description  Adds stuff for easier browsing for killstreak items
 // @author       HairGMan
 // @match        https://backpack.tf/stats/*
