@@ -13,6 +13,6 @@ An userscript that adds some functionality to backpack.tf to aid navigation when
 
 ## Images
 
-![Weapon stats page](https://imgur.com/0o9CnNt)
-![Kit stats page](https://imgur.com/Mx4isU7)
-![Fabricator stats page](https://imgur.com/0o9CnNt)
+![Weapon stats page](https://i.imgur.com/0o9CnNt.png)
+![Kit stats page](https://i.imgur.com/Mx4isU7.png)
+![Fabricator stats page](https://i.imgur.com/YOcyQSF.png)
