@@ -1,4 +1,4 @@
-# bptf-killstreak-kit-additions
+# backpack.tf Killstreak Kit Additions
 
 An userscript that adds some functionality to backpack.tf to aid navigation when checking stats for killstreak weapons, kits and fabricators. 
 * On a given weapon's stats page, it adds shortcuts to different killstreak tiers of the same weapon, and a link to the killstreak kit stats if it has one;
