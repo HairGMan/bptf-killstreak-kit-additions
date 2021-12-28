@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Backpack.tf Killstreak Kit Additions
 // @namespace    https://github.com/HairGMan
-// @version      0.1.0
+// @version      0.1
 // @description  Adds stuff for easier browsing for killstreak items
 // @author       HairGMan
 // @match        https://backpack.tf/stats/*
@@ -40,129 +40,57 @@ class itemData{
         this.aussie = headerItem.dataset.australium ? headerItem.dataset.australium : 0;
         this.slot = headerItem.dataset.slot ? headerItem.dataset.slot : "none";
         this.idreplacedict = {
-            13 : 200,
-            799 : 200,
-            808 : 200,
-            888 : 200,
-            897 : 200,
-            906 : 200,
-            915 : 200,
-            964 : 200,
-            973 : 200,
-            1078 : 45,
-            294 : 160,
-            833 : 812,
-            660 : 190,
-            999 : 221,
-            658 : 205,
-            800 : 205,
-            809 : 205,
-            889 : 205,
-            898 : 205,
-            907 : 205,
-            916 : 205,
-            965 : 205,
-            974 : 205,
-            1085 : 228,
-            1141 : 199,
-            1071 : 264,
-            21 : 208,
-            659 : 208,
-            798 : 208,
-            807 : 208,
-            887 : 208,
-            896 : 208,
-            905 : 208,
-            914 : 208,
-            963 : 208,
-            972 : 208,
-            1146 : 40,
-            30474 : 208,
-            1081 : 39,
-            1141 : 199,
-            834 : 813,
-            1000 : 38,
-            1007 : 206,
-            20 : 207,
-            661 : 207,
-            797 : 207,
-            806 : 207,
-            886 : 207,
-            895 : 207,
-            904 : 207,
-            913 : 207,
-            962 : 207,
-            971 : 207,
-            1144 : 131,
-            1 : 191,
-            266 : 132,
-            1082 : 132,
-            15 : 202,
-            654 : 202,
-            793 : 202,
-            802 : 202,
-            832 : 811,
-            882 : 202,
-            891 : 202,
-            900 : 202,
-            909 : 202,
-            958 : 202,
-            967 : 202,
-            5 : 195,
-            1004 : 141,
-            1086 : 140,
-            30668 : 140,
-            169 : 197,
-            662 : 197,
-            795 : 197,
-            804 : 197,
-            884 : 197,
-            893 : 197,
-            902 : 197,
-            911 : 197,
-            960 : 197,
-            969 : 197,
-            17 : 204,
-            1079 : 305,
-            29 : 211,
-            663 : 211,
-            796 : 211,
-            805 : 211,
-            885 : 211,
-            894 : 211,
-            903 : 211,
-            912 : 211,
-            961 : 211,
-            970 : 211,
-            8 : 198,
-            1003 : 37,
-            1143 : 198,
-            14 : 201,
-            664 : 201,
-            792 : 201,
-            801 : 201,
-            881 : 201,
-            890 : 201,
-            899 : 201,
-            908 : 201,
-            957 : 201,
-            966 : 201,
-            1005 : 56,
-            16 : 203,
-            1149 : 203,
-            24 : 210,
-            1006 : 61,
-            1142 : 210,
-            4 : 194,
-            665 : 194,
-            794 : 194,
-            803 : 194,
-            883 : 194,
-            892 : 194,
-            901 : 194,
-            910 : 194,
-            959 : 194,
-            968 : 194
+            13 : 200,	// Scattergun
+            294 : 160,	// Lugermorph
+            833 : 812,	// Flying Guillotine
+            1071 : 264,	// Golden Frying Pan
+            21 : 208,	// Flame Thrower
+            30474 : 208,	// Nostromo Napalmer
+            834 : 813,	// Neon Annihilator
+            20 : 207,	// Stickybomb Launcher
+            1 : 191,	// Bottle
+            266 : 132,	// Headtaker
+            15 : 202,	// Minigun
+            832 : 811,	// Huo-Long Heater
+            5 : 195,	// Fists
+            169 : 197,	// Golden Wrench
+            17 : 204,	// Syringe Gun
+            29 : 211,	// Medi Gun
+            8 : 198,	// Bonesaw
+            14 : 201,	// Sniper Rifle
+            16 : 203,	// SMG
+            24 : 210,	// Revolver
+            4 : 194,	// Knife
+        }
+        this.nameiddict = {
+            "Scattergun" : 200,
+            "Force-A-Nature" : 45,
+            "Holy Mackerel" : 221,
+            "Bat" : 190,
+            "Rocket Launcher" : 205,
+            "Black Box" : 228,
+            "Shotgun" : 199,
+            "Flame Thrower" : 208,
+            "Backburner" : 40,
+            "Flare Gun" : 39,
+            "Axtinguisher" : 38,
+            "Grenade Launcher" : 206,
+            "Stickybomb Launcher" : 207,
+            "Chargin' Targe" : 131,
+            "Eyelander" : 132,
+            "Minigun" : 202,
+            "Gloves of Running Urgently" : 239,
+            "Frontier Justice" : 141,
+            "Crusader's Crossbow" : 305,
+            "Medi Gun" : 211,
+            "Bonesaw" : 198,
+            "Ubersaw" : 37,
+            "Sniper Rifle" : 201,
+            "Huntsman" : 56,
+            "SMG" : 203,
+            "Revolver" : 210,
+            "Ambassador" : 61,
+            "Knife" : 194,
         }
     }
 
@@ -176,12 +104,19 @@ class itemData{
 
     getItemId(){
         let itemId;
-        let defindexInt = parseInt(this.defindex);
-        if(this.idreplacedict.hasOwnProperty(defindexInt)){
-            itemId = this.idreplacedict[defindexInt].toString();
-        }
-        else{
+        let itemName = this.name.match(/((?<=((Blood)|(Gold)|(Silver)|(Rust)|(Carbonado)|(Diamond)) Botkiller ).+(?= Mk.II?))|((?<=Festive ).+)/g); // Regex courtesy of Moder112
+        if(itemName){
+            this.defindex = this.nameiddict[itemName[0]];
             itemId = this.defindex;
+            }
+        else{
+            let defindexInt = parseInt(this.defindex);
+            if(this.idreplacedict.hasOwnProperty(defindexInt)){
+                itemId = this.idreplacedict[defindexInt].toString();
+            }
+            else{
+                itemId = this.defindex;
+            }
         }
         return itemId;
     }
