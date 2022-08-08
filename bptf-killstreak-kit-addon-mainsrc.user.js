@@ -9,7 +9,7 @@
 // @homepageURL  https://github.com/HairGMan/bptf-killstreak-kit-additions
 // @supportURL   https://github.com/HairGMan/bptf-killstreak-kit-additions/issues
 // @downloadURL  https://github.com/HairGMan/bptf-killstreak-kit-additions/raw/master/bptf-killstreak-kit-addon-mainsrc.user.js
-// @updateURL    https://github.com/NetroScript/backpack.tf-miscellaneous-extensions/raw/master/backpack.tf%20extended%20sorting.meta.js
+// @updateURL    https://github.com/HairGMan/bptf-killstreak-kit-additions/raw/master/bptf-killstreak-kit-addon-mainsrc.user.js
 // @license      GNU GPL-3.0
 // @grant        none
 // ==/UserScript==
