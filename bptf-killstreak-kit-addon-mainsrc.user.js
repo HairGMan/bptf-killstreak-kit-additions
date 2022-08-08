@@ -41,8 +41,8 @@ class itemData{
         this.slot = headerItem.dataset.slot ? headerItem.dataset.slot : "none";
         this.idreplacedict = {
             10 : 199,	// Shotgun
-			18 : 205,	// Rocket Launcher
-			23 : 209,	// Pistol
+	    18 : 205,	// Rocket Launcher
+	    23 : 209,	// Pistol
             13 : 200,	// Scattergun
             294 : 160,	// Lugermorph
             833 : 812,	// Flying Guillotine
@@ -67,8 +67,8 @@ class itemData{
         }
         this.nameiddict = {
             "Shotgun" : 199,
-			"Rocket Launcher" : 205,
-			"Pistol": 209,
+	    "Rocket Launcher" : 205,
+	    "Pistol": 209,
             "Scattergun" : 200,
             "Force-A-Nature" : 45,
             "Holy Mackerel" : 221,
